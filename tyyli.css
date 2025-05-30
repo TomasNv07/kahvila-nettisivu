@@ -1,0 +1,184 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Yleinen runko */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7e8d4;
+    color: #000000; /* vaihdetaan valkoisesta mustaan luettavuuden vuoksi */
+    width: 100%;
+}
+
+/* Otsikot */
+h1 {
+    font-size: 60px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #ff995a;
+    margin-top: 20px;
+}
+h2 {
+    font-size: 36px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #cc6600;
+    margin-top: 40px;
+}
+
+/* Perusteksti */
+p {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 20px;
+    line-height: 1.5;
+}
+
+/* Linkit */
+a {
+    color: #ff995a;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+p a:hover {
+    color: #ffffff;
+}
+
+/* Navigaatio */
+.navbar {
+    background-color: rgb(255, 239, 208);
+    text-align: center;
+    padding: 8px 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 10px;
+    border: solid 1px #ff995a;
+}
+
+nav a {
+    color: rgb(52, 52, 52);
+    text-decoration: none;
+    margin: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    background-color: rgba(255, 255, 255, 0.541);
+}
+
+.active {
+    color: rgb(245, 194, 131);
+}
+
+/* Otsikkoalue (header) */
+header {
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+    background-image: url(kahvi.jpg);
+    background-size: cover;
+    background-position: center;
+    border: solid 3px #fcb86a;
+    border-radius: 10px;
+}
+
+/* Alatunniste (footer) */
+footer {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 19px;
+    padding: 5px;
+    text-align: center;
+    background-color: hsla(39, 100%, 72%, 0.878);
+    color: black;
+}
+
+/* Pääsisältöalueen asettelu */
+main {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+/* Yleinen asettelu section-elementeille */
+section {
+    padding: 10px 50px;
+    background-color: #fff5e1;
+    border-radius: 12px;
+    margin: 40px auto;
+    max-width: 900px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.section-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+.section-image {
+    flex: 1;
+    width: 250px;
+    vertical-align: middle;
+}
+textarea {
+    width: 350px;
+    height: 100px;
+    max-width: 350px;
+    max-height: 300px;
+}
+.links{
+    color: #ff995a;
+    background-color: #00000050;
+    width: 50%;
+    text-align: center;
+    border-radius: 10px;
+    border: solid 1px #ff995a;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.links a {
+    color: #ff995a;
+}
+.links a:hover {
+    border-radius: 20px;
+}
+ul {
+    color: #000000;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.kirjaudu{
+    background-image: url(kahvi.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+.kirjaudut{
+    color: #ff995a;
+    background-color: #00000050;
+    width: 50%;
+    height: 400px;
+    text-align: center;
+    border-radius: 10px;
+    border: solid 1px #ff995a;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20%;
+    font-size: 20px;
+}
+input{
+    font-size: 20px;
+}
+.kirjaudusisa{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.5;
+    float: right;
+    border-radius: 10px;
+    border: solid 1px #ff995a;
+    background-color: #00000050;
+    padding: 10px;
+}
